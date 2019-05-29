@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on SOARS 2019</title>
+    <link>/soars19ctds/page/</link>
+    <description>Recent content in Pages on SOARS 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Keith Maull and the SOARS Program</copyright>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/soars19ctds/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/soars19ctds/page/about/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/page/about/</guid>
+      <description>This site has been set up as a supplement to the 2019 workshops.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/soars19ctds/page/projects/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/page/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/soars19ctds/page/resources/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/page/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/soars19ctds/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/page/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
