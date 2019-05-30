@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/soars19ctds/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 0 | First Thoughts</title>
+      <link>/soars19ctds/2019/05/29/week-0-first-thoughts/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/2019/05/29/week-0-first-thoughts/</guid>
+      <description>REVIEW OF COMPUTATIONAL WORKSHOP 0 We had a wonderful inaugural session last Friday! You can find the slides here if you&amp;rsquo;d like to go over the content again.
+THE COMPUTATIONALLY F-A-I-R FUTURE I want to encourage you again, to read the Gil, et. al paper as it sets the stage for many of the things coming over and summer and over the course of your academic careers to come. Reiterating the conversation about FAIR notebooks, I would also recommend you:</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -28,16 +38,6 @@
       
       <guid>/soars19ctds/resources/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Week 0 | First Thoughts</title>
-      <link>/soars19ctds/2019/05/28/week-0-first-thoughts/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/soars19ctds/2019/05/28/week-0-first-thoughts/</guid>
-      <description>REVIEW OF COMPUTATIONAL WORKSHOP 0 We had a wonderful inaugural session last Friday! You can find the slides here if you&amp;rsquo;d like to go over the content again.
-THE COMPUTATIONALLY F-A-I-R FUTURE I want to encourage you again, to read the Gil, et. al paper as it sets the stage for many of the things coming over and summer and over the course of your academic careers to come. Reiterating the conversation about FAIR notebooks, I would also recommend you:</description>
     </item>
     
   </channel>
