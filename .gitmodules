@@ -1,4 +1,0 @@
-[submodule "src/public"]
-	path = src/public
-	url = git@github.com:NCAR/soars19ctds.git
-	branch = master
