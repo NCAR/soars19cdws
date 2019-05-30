@@ -3,14 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/soars19ctds/page/about/</loc>
+    <loc>/soars19ctds/about/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/soars19ctds/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -20,12 +14,12 @@
   </url>
   
   <url>
-    <loc>/soars19ctds/page/projects/</loc>
+    <loc>/soars19ctds/projects/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/soars19ctds/page/resources/</loc>
+    <loc>/soars19ctds/resources/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -77,7 +71,12 @@
   </url>
   
   <url>
-    <loc>/soars19ctds/page/contact/</loc>
+    <loc>/soars19ctds/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/workshop/</loc>
     <priority>0</priority>
   </url>
   
