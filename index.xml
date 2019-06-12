@@ -2,89 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SOARS 2019</title>
-    <link>/soars19ctds/</link>
+    <link>/</link>
     <description>Recent content on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
-    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/soars19ctds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>NCAR/CGD Hackathon Concludes</title>
+      <link>/2019/06/08/ncar-hackathon-concludes/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/08/ncar-hackathon-concludes/</guid>
+      <description>Last Wednesday June 5, was the last day of a 3-day hackathon hosted by the Climate &amp;amp; Global Dynamics (CGD) Group at NCAR and I wanted to share a few things that you should really know about with regarding why Python will be so important in your scientific research and computational future.
+THE LANDSCAPE AND HISTORY OF NCL AND FORTRAN A large proportion of the modeling and computation code written here at NCAR has been developed in NCL (NCAR Command Language) and FORTRAN.</description>
+    </item>
+    
+    <item>
       <title>Three Python Books You Should Have</title>
-      <link>/soars19ctds/2019/05/30/three-python-books/</link>
+      <link>/2019/05/30/three-python-books/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/2019/05/30/three-python-books/</guid>
+      <guid>/2019/05/30/three-python-books/</guid>
       <description>The ecosystem of Python is large and often complex, so it is common to get overwhelmed and confused with where to start your journey to Python. There are a number of really awesome Github repos (Awesome Python being a great starting point), but where do you go when you just need a focused start to it all?
 There are three books that I&amp;rsquo;d recommend (two of which are free, yes &amp;ldquo;free&amp;rdquo; as in candy) that you should have a look at.</description>
     </item>
     
     <item>
       <title>Week 0 | First Thoughts</title>
-      <link>/soars19ctds/2019/05/29/week-0-first-thoughts/</link>
+      <link>/2019/05/29/week-0-first-thoughts/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/2019/05/29/week-0-first-thoughts/</guid>
+      <guid>/2019/05/29/week-0-first-thoughts/</guid>
       <description>REVIEW OF COMPUTATIONAL WORKSHOP 0 We had a wonderful inaugural session last Friday! You can find the slides here if you&amp;rsquo;d like to go over the content again.
 THE COMPUTATIONALLY F-A-I-R FUTURE I want to encourage you again, to read the Gil, et. al paper as it sets the stage for many of the things coming over the summer and over the course of your academic careers to come. Reiterating the conversation about FAIR notebooks, I would also recommend you:</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/soars19ctds/about/</link>
+      <link>/about/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/about/</guid>
+      <guid>/about/</guid>
       <description>This site has been set up as a supplement to the 2019 workshops.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/soars19ctds/projects/</link>
+      <link>/projects/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/projects/</guid>
+      <guid>/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>/soars19ctds/resources/</link>
+      <link>/resources/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/resources/</guid>
+      <guid>/resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/soars19ctds/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/contact/</guid>
+      <guid>/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/soars19ctds/workshop/overview/</link>
+      <link>/workshop/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/workshop/overview/</guid>
+      <guid>/workshop/overview/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/soars19ctds/workshop/syllabus_overview/</link>
+      <link>/workshop/syllabus_overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/workshop/syllabus_overview/</guid>
+      <guid>/workshop/syllabus_overview/</guid>
       <description>SOARS 2019 COMPUTATIONAL THINKING AND DATA SCIENCE WORKSHOPS
- (3) three, 2 hour sessions Track 1 covers basics of algorithmic and computational thinking Track 2 covers advanced coding topics in Python, Jupyter and Github with a focus on open discussions and advanced problem solving in Python with Geoscience applications Github repository and website: https://github.com/NCAR/SOARS2019-CTDSWorkshops   | AM Track 1 + PM Track 2 | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;| | Friday, May 24 Using slack as a collaborative communication tool; Basic Python resources (a few books); Python, Jupyter Notebooks (Hub); Why data and computation may be your most important career differentiating tools?</description>
+ (3) three, 2 hour sessions Track 1 covers basics of algorithmic and computational thinking Track 2 covers advanced coding topics in Python, Jupyter and Github with a focus on open discussions and advanced problem solving in Python with Geoscience applications Github repository and website: https://github.com/NCAR/SOARS2019-CTDSWorkshops  Friday, May 24    AM Track + PM Track     Using slack as a collaborative communication tool; Basic Python resources (a few books); Python, Jupyter Notebooks (Hub); Why data and computation may be your most important career differentiating tools?</description>
     </item>
     
   </channel>

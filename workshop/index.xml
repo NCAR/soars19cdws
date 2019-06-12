@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SOARS 2019</title>
-    <link>/soars19ctds/workshop/</link>
-    <description>Recent content on SOARS 2019</description>
+    <title>Workshops on SOARS 2019</title>
+    <link>/workshop/</link>
+    <description>Recent content in Workshops on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
     
-	<atom:link href="/soars19ctds/workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/soars19ctds/workshop/overview/</link>
+      <link>/workshop/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/workshop/overview/</guid>
+      <guid>/workshop/overview/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/soars19ctds/workshop/syllabus_overview/</link>
+      <link>/workshop/syllabus_overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/workshop/syllabus_overview/</guid>
+      <guid>/workshop/syllabus_overview/</guid>
       <description>SOARS 2019 COMPUTATIONAL THINKING AND DATA SCIENCE WORKSHOPS
- (3) three, 2 hour sessions Track 1 covers basics of algorithmic and computational thinking Track 2 covers advanced coding topics in Python, Jupyter and Github with a focus on open discussions and advanced problem solving in Python with Geoscience applications Github repository and website: https://github.com/NCAR/SOARS2019-CTDSWorkshops   | AM Track 1 + PM Track 2 | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;| | Friday, May 24 Using slack as a collaborative communication tool; Basic Python resources (a few books); Python, Jupyter Notebooks (Hub); Why data and computation may be your most important career differentiating tools?</description>
+ (3) three, 2 hour sessions Track 1 covers basics of algorithmic and computational thinking Track 2 covers advanced coding topics in Python, Jupyter and Github with a focus on open discussions and advanced problem solving in Python with Geoscience applications Github repository and website: https://github.com/NCAR/SOARS2019-CTDSWorkshops  Friday, May 24    AM Track + PM Track     Using slack as a collaborative communication tool; Basic Python resources (a few books); Python, Jupyter Notebooks (Hub); Why data and computation may be your most important career differentiating tools?</description>
     </item>
     
   </channel>
