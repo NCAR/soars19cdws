@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>core concepts on SOARS 2019</title>
-    <link>/tags/core-concepts/</link>
+    <link>/soars19ctds/tags/core-concepts/</link>
     <description>Recent content in core concepts on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
     <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/core-concepts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/soars19ctds/tags/core-concepts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python Built-ins</title>
-      <link>/journal/python-built-ins/</link>
+      <link>/soars19ctds/journal/python-built-ins/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/journal/python-built-ins/</guid>
+      <guid>/soars19ctds/journal/python-built-ins/</guid>
       <description>As you continue to specialize in Python, you&amp;rsquo;ll no doubt begin to develop a deep understanding of the core libraries that you use the most. For example, the more you use Pandas the more familiar you will become with its core functions, and especially the one&amp;rsquo;s you use the most often. But one area that is often overlooked is right under your nose: the core &amp;ldquo;built-ins&amp;rdquo; &amp;ndash; those functions and constants that are always available to you in the language.</description>
     </item>
     

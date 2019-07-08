@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>workshop on SOARS 2019</title>
-    <link>/tags/workshop/</link>
+    <link>/soars19ctds/tags/workshop/</link>
     <description>Recent content in workshop on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
     <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/soars19ctds/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Workshop</title>
-      <link>/workshop/</link>
+      <link>/soars19ctds/workshop/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/workshop/</guid>
+      <guid>/soars19ctds/workshop/</guid>
       <description>SOARS 2019 COMPUTATIONAL THINKING AND DATA SCIENCE WORKSHOPS   (3) three, 2 hour sessions Track 1 covers basics of algorithmic and computational thinking Track 2 covers advanced coding topics in Python, Jupyter and Github with a focus on open discussions and advanced problem solving in Python with Geoscience applications Github repository and website: https://github.com/NCAR/SOARS2019-CTDSWorkshops   WORKSHOP 0: Friday, May 24 AM Track + PM Track
  Using Slack as a collaborative communication tool; Basic Python resources (a few books); Python, Jupyter Notebooks (Hub); Why data and computation may be your most important career differentiating tools?</description>
     </item>

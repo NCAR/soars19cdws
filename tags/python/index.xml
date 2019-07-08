@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on SOARS 2019</title>
-    <link>/tags/python/</link>
+    <link>/soars19ctds/tags/python/</link>
     <description>Recent content in python on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
     <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/soars19ctds/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python Built-ins</title>
-      <link>/journal/python-built-ins/</link>
+      <link>/soars19ctds/journal/python-built-ins/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/journal/python-built-ins/</guid>
+      <guid>/soars19ctds/journal/python-built-ins/</guid>
       <description>As you continue to specialize in Python, you&amp;rsquo;ll no doubt begin to develop a deep understanding of the core libraries that you use the most. For example, the more you use Pandas the more familiar you will become with its core functions, and especially the one&amp;rsquo;s you use the most often. But one area that is often overlooked is right under your nose: the core &amp;ldquo;built-ins&amp;rdquo; &amp;ndash; those functions and constants that are always available to you in the language.</description>
     </item>
     
     <item>
       <title>NCAR/CGD Hackathon Concludes</title>
-      <link>/journal/ncar-hackathon/</link>
+      <link>/soars19ctds/journal/ncar-hackathon/</link>
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/journal/ncar-hackathon/</guid>
+      <guid>/soars19ctds/journal/ncar-hackathon/</guid>
       <description>Last Wednesday June 5, was the last day of a 3-day hackathon hosted by the Climate &amp;amp; Global Dynamics (CGD) Group at NCAR and I wanted to share a few things that you should really know about with regarding why Python will be so important in your scientific research and computational future.
 THE LANDSCAPE AND HISTORY OF NCL AND FORTRAN A large proportion of the modeling and computation code written here at NCAR has been developed in NCL (NCAR Command Language) and FORTRAN.</description>
     </item>
     
     <item>
       <title>Three Python Books You Should Have</title>
-      <link>/journal/three-python-books/</link>
+      <link>/soars19ctds/journal/three-python-books/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/journal/three-python-books/</guid>
+      <guid>/soars19ctds/journal/three-python-books/</guid>
       <description>The ecosystem of Python is large and often complex, so it is common to get overwhelmed and confused with where to start your journey to Python. There are a number of really awesome Github repos (Awesome Python being a great starting point), but where do you go when you just need a focused start to it all?
 There are three books that I&amp;rsquo;d recommend (two of which are free, yes &amp;ldquo;free&amp;rdquo; as in candy) that you should have a look at.</description>
     </item>
     
     <item>
       <title>Week 0 | First Thoughts</title>
-      <link>/journal/week0/</link>
+      <link>/soars19ctds/journal/week0/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/journal/week0/</guid>
+      <guid>/soars19ctds/journal/week0/</guid>
       <description>REVIEW OF COMPUTATIONAL WORKSHOP 0 We had a wonderful inaugural session last Friday! You can find the slides here if you&amp;rsquo;d like to go over the content again.
 THE COMPUTATIONALLY F-A-I-R FUTURE I want to encourage you again, to read the Gil, et. al paper as it sets the stage for many of the things coming over the summer and over the course of your academic careers to come. Reiterating the conversation about FAIR notebooks, I would also recommend you:</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>/resources/</link>
+      <link>/soars19ctds/resources/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/resources/</guid>
+      <guid>/soars19ctds/resources/</guid>
       <description></description>
     </item>
     
