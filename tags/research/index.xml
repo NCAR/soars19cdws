@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research on SOARS 2019</title>
-    <link>/soars19ctds/tags/research/</link>
+    <link>/tags/research/</link>
     <description>Recent content in research on SOARS 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
     <lastBuildDate>Sat, 08 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/soars19ctds/tags/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NCAR/CGD Hackathon Concludes</title>
-      <link>/soars19ctds/2019/06/08/ncar-hackathon-concludes/</link>
+      <link>/journal/ncar-hackathon/</link>
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/soars19ctds/2019/06/08/ncar-hackathon-concludes/</guid>
+      <guid>/journal/ncar-hackathon/</guid>
       <description>Last Wednesday June 5, was the last day of a 3-day hackathon hosted by the Climate &amp;amp; Global Dynamics (CGD) Group at NCAR and I wanted to share a few things that you should really know about with regarding why Python will be so important in your scientific research and computational future.
 THE LANDSCAPE AND HISTORY OF NCL AND FORTRAN A large proportion of the modeling and computation code written here at NCAR has been developed in NCL (NCAR Command Language) and FORTRAN.</description>
     </item>

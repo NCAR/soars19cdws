@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Python Built-ins &middot; SOARS - Keith Maull</title>
+        <meta name="description" content="What you know might save you some time ...">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.55.6" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Python Built-ins">
+<meta property="og:description" content="What you know might save you some time ...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/journal/python-built-ins/">
+        <link rel="stylesheet" href="dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="SOARS 2019" href="">SOARS 2019</a>
+                            </h1>
+                        
+                        <a class="button-square" href="index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/NCAR/soars19ctds" rel="me">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:kmaull@ucar.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="Journal" href="/">Journal</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Workshop" href="/workshop/">Workshop</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="About" href="/about">About</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Python Built-ins</h1>
+    
+        <p class="post-description" itemprop="description">What you know might save you some time ...</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2019-07-07" itemprop="datePublished">Sun, Jul 7, 2019</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">SOARS - Keith Maull</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 7 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<p>As you continue to specialize in Python, you&rsquo;ll no doubt begin to develop a deep understanding of the core libraries that you use the most.  For example, the more you use <a href="http://pandas.pydata.org/">Pandas</a> the more familiar you will become with its core functions, and especially the one&rsquo;s you use the most often.  But one area that is often overlooked is right under your nose: <a href="https://docs.python.org/3/library/functions.html#built-in-functions">the core &ldquo;built-ins&rdquo;</a> &ndash; those functions and constants that are always available to you in the language.  In this post, I&rsquo;ll remind you what you might be missing, and it might surprise you what is actually there that is useful to you.</p>
+
+<h2 id="so-what-is-a-built-in">So what is a &ldquo;built-in&rdquo;?</h2>
+
+<p>Nearly every programming language provides a set of functions and constants that are available to you at all times without importing anything.  These built-ins vary from language to language, but there is usually good reason to have an understanding of what they are.  Python is no exception, and more importantly, there are some really useful characters in the built-in cast and crew of Python 3.</p>
+
+<h2 id="why-built-ins">Why built-ins?</h2>
+
+<p>Many built-ins are designed to provide access to some globally useful core function of the language.  For example, <a href="https://docs.python.org/3/library/functions.html#print"><code>print()</code></a> is a function that nearly everyone has used (and will continue to use) in nearly any context.  Similarly, if you&rsquo;re going to do any kind of file I/O, you will most certainly use the <a href="https://docs.python.org/3/library/functions.html#open"><code>open()</code></a> function to open files.  In the remainder of this entry, we&rsquo;ll explore some other built-ins you might want to become familiar with.</p>
+
+<h2 id="a-few-useful-python-built-ins">A few useful Python built-ins &hellip;</h2>
+
+<h3 id="numeric-built-ins-sum-min-max-round-abs">Numeric built-ins: <code>sum()</code>, <code>min()</code>, <code>max()</code>, <code>round()</code>, <code>abs()</code></h3>
+
+<p>Though you may be compelled to use the <a href="https://docs.python.org/3.7/library/math.html"><code>math</code></a> library for numeric functions (and in a lot of cases you should), you probably knew that the built-in <a href="https://docs.python.org/3/library/functions.html#func-range"><code>range(start, stop [, step])</code></a> is a built-in generator, that produces an iterable of numbers (integers) in the range <code>start</code> to <code>stop</code>.</p>
+
+<p>But going one step further, the built-in <a href="https://docs.python.org/3/library/functions.html#sum"><code>sum()</code></a> can be used to to sum up all those numbers generated by <code>range()</code> (or any others that you&rsquo;d like that are iterable).  You can use <a href="https://docs.python.org/3/library/functions.html#min"><code>min()</code></a> and <a href="https://docs.python.org/3/library/functions.html#min"><code>max()</code></a> to do the obvious as well.</p>
+
+<p>Again, if you really don&rsquo;t need to use <code>math</code> for your work, and just need to do some rounding of a number, use <a href="https://docs.python.org/3.7/library/functions.html#round"><code>round(number[, ndigits])</code></a> to round a number to the nearest multiple of 10 with <code>ndigits</code> of precision.  Finally, try using the very accessible <a href="https://docs.python.org/3.7/library/functions.html#abs"><code>abs()</code></a> to get the absolute value of a number.</p>
+
+<h3 id="iterable-built-ins">Iterable built-ins</h3>
+
+<p>An <em>iterable</em> is a any Python object that implements the iterator methods that allow looping (iterating), but more specifically implements the <code>__iter__()</code> method which returns an <code>Iterator</code> &mdash; or an object that supports iteration.  The returned <code>Iterator</code> object implements a <a href="https://docs.python.org/3/library/functions.html#next"><code>next()</code></a> method which can be used as the target of looping methods like <code>for .. in [iterable]:</code> which is also called <em>iterating</em>.</p>
+
+<p>If that sounds confusing, let&rsquo;s take a look at some of the built-ins to get a feel for what&rsquo;s really going on.</p>
+
+<h4 id="enumerate"><code>enumerate()</code></h4>
+
+<p>Ever want to get a list and the corresponding index of the items in that list without doing the counting yourself?  <a href="https://docs.python.org/3/library/functions.html#enumerate"><code>enumerate()</code></a> might just be what you were needing.</p>
+
+<p>Let&rsquo;s say you have list, <code>enumerate</code> that list and you will get a list of tuples, the first value of the tuple is the index (count from 0) and the second value the original list value:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; l = ['a', 'b', 'c']
+
+&gt;&gt;&gt; list(enumerate(l))
+[(0, 'a'), (1, 'b'), (2, 'c')]
+</code></pre>
+
+<p>This might be useful if you wanted to get the <em>i</em> th object in a list, without keeping track of a counter yourself.</p>
+
+<h4 id="filter-function-iterable"><code>filter(function, iterable)</code></h4>
+
+<p>Say you have a function which returns <code>True</code> or <code>False</code>, for example a function that determines if a number is divisible by 6:</p>
+
+<pre><code class="language-python">def divisible_by_6(n):
+    return (n%6)==0
+</code></pre>
+
+<p>Now let&rsquo;s say we want to filter all numbers between 1 and 1000 which are divisible by 6 &hellip; <code>filter()</code> is going to do the trick.  We simply pass in the function <code>divisible_by_6</code> and the iterable &mdash; in this case the numbers from 1 to 1000.</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; list(filter(divisible_by_6, range(1,1000)))
+[6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156, 162, 168, 174, 180, 186, 1
+92, 198, 204, 210, 216, 222, 228, 234, 240, 246, 252, 258, 264, 270, 276, 282, 288, 294, 300, 306, 312, 318, 324, 330, 336, 342, 348, 354, 3
+60, 366, 372, 378, 384, 390, 396, 402, 408, 414, 420, 426, 432, 438, 444, 450, 456, 462, 468, 474, 480, 486, 492, 498, 504, 510, 516, 522, 5
+28, 534, 540, 546, 552, 558, 564, 570, 576, 582, 588, 594, 600, 606, 612, 618, 624, 630, 636, 642, 648, 654, 660, 666, 672, 678, 684, 690, 6
+96, 702, 708, 714, 720, 726, 732, 738, 744, 750, 756, 762, 768, 774, 780, 786, 792, 798, 804, 810, 816, 822, 828, 834, 840, 846, 852, 858, 8
+64, 870, 876, 882, 888, 894, 900, 906, 912, 918, 924, 930, 936, 942, 948, 954, 960, 966, 972, 978, 984, 990, 996]
+</code></pre>
+
+<h4 id="map-function-iterable"><code>map(function, iterable, ...)</code></h4>
+
+<p>We can take filtering one step further and apply a function to all items in our iterable.  Say we want to multiply all numbers by 4 in a list of the first 10 integers.</p>
+
+<pre><code class="language-python">def times_4(n):
+    return n*4
+</code></pre>
+
+<p>We would use <code>map</code> like this:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; list(map(times_4, range(1,10)))
+[4, 8, 12, 16, 20, 24, 28, 32, 36]
+</code></pre>
+
+<p>While the examples here are all on numbers (and many of these functions exist elsewhere in libraries fully optimized for numeric manipulation like <code>math</code>, <code>pandas</code> and <code>numpy</code>), these built-ins can equally transfer to text and other data.  Imagine, for instance, pluralizing words that end in &ldquo;er&rdquo; pulled from a large file of words, for which <code>filter</code> and <code>map</code> would be a perfect dynamic duo.</p>
+
+<h3 id="any-and-all-boolean-functions"><code>any()</code> and <code>all()</code> boolean functions</h3>
+
+<p>Every once in a while you might need to quickly determine the boolean values of items in a list.  Suppose we wanted to determine if <em>any</em> of the numbers in a list were perfect squares.  Combining <code>map()</code> with a function that evaluates whether a number is a perfect square,   <a href="https://docs.python.org/3/library/functions.html#any"><code>any()</code></a> will quickly and easily do this.  Writing the function <code>is_perfect_number()</code>:</p>
+
+<pre><code class="language-python">def is_perfect_square(n):
+    import math
+    return math.sqrt(n) == int(math.sqrt(n))
+</code></pre>
+
+<pre><code class="language-python">&gt;&gt;&gt; is_perfect_square(25)
+True
+
+&gt;&gt;&gt; is_perfect_square(26)
+False
+</code></pre>
+
+<p>Now using <code>any()</code>, let&rsquo;s see if there are perfect squares betwewn 65 and 80 (we know there aren&rsquo;t):</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; any(map(is_perfect_square, range(65,81)))
+False
+</code></pre>
+
+<p>But if we include 81 (by extending our range to 112)</p>
+
+<pre><code class="language-python">
+&gt;&gt;&gt; any(map(is_perfect_square, range(65,112)))
+True
+</code></pre>
+
+<p>we arrive at the answer we&rsquo;d expect, since 81 is a perfect square.  What if we wanted to know of <em>all</em> of them were?  <a href="https://docs.python.org/3/library/functions.html#all"><code>all()</code></a> will do just that.</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; all(map(is_perfect_square, [4,16,25,36,49]))
+True
+
+&gt;&gt;&gt; all(map(is_perfect_square, [4,16,25,36,48]))
+False
+</code></pre>
+
+<p>These two built-ins are very valuable and often neglected &mdash; don&rsquo;t rewrite them and don&rsquo;t forget when they might come in handy!</p>
+
+<h3 id="zip-for-list-threading"><code>zip()</code> for list threading</h3>
+
+<p>We finally come to a built-in that&rsquo;s been with Python for a long time, <code>zip()</code>.  <code>zip()</code> is one of those built-ins that you will know when you need to use it.  <code>zip()</code> takes 2 or more iterables as inputs and combines them as a pairwise iterable of tuples.  I like to call it &ldquo;weaving&rdquo; or &ldquo;threading&rdquo; (not to be confused with or related to <a href="https://docs.python.org/3.7/library/threading.html?#module-threading">task &ldquo;threading&rdquo;</a>) because each list is woven with another.  Explore the examples below:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; i1 = ['a', 'b', 'c']
+
+&gt;&gt;&gt; i2 = [1, 2, 3]
+
+&gt;&gt;&gt; list(zip(i1, i2))
+[('a', 1), ('b', 2), ('c', 3)]
+
+&gt;&gt;&gt; list(zip(i2, i2))
+[(1, 1), (2, 2), (3, 3)]
+
+&gt;&gt;&gt; list(zip(i2, i1))
+[(1, 'a'), (2, 'b'), (3, 'c')]
+
+&gt;&gt;&gt; list(zip(i2, i1, i1))
+[(1, 'a', 'a'), (2, 'b', 'b'), (3, 'c', 'c')]
+</code></pre>
+
+<h3 id="and-help-when-you-ve-had-enough-and-need-more">&hellip; and <code>help()</code> when you&rsquo;ve had enough (and need more)</h3>
+
+<p>If you&rsquo;ve ever wanted to avoid looking up information about a method without going back to the web, give <a href="https://docs.python.org/3/library/functions.html#help"><code>help([object])</code></a> a shot.  Basically, if &hellip;</p>
+
+<blockquote>
+<p>the argument is a string, then the string is looked up as the name of a module, function, class, method, keyword, or documentation topic, and a help page is printed on the console. If the argument is any other kind of object, a help page on the object is generated.</p>
+</blockquote>
+
+<p>This, of course, only works in interactive sessions (notebooks, console, etc.) but it is tremendously useful!</p>
+
+<h2 id="now-that-you-know">Now that you know &hellip;</h2>
+
+<p>Now that you know about bit more about Python built-ins, check out the <a href="https://docs.python.org/3/library/functions.html#built-in-functions">entire list</a> &hellip; cozy up and get familiar with some of the more interesting cast and crew (<code>eval()</code>, <code>exec()</code>, <code>dir()</code>, <code>bin()</code>, <code>byte()</code> and <code>hex()</code> come to mind).</p>
+
+<p><img src="/soars19ctds/assets/images/python3_builtins.png" alt="Python Built-ins" /></p>
+
+<p>Once this list gets too familiar, upgrade your knowledge and take a look at the very, very useful <a href="https://docs.python.org/3/library/itertools.html#module-itertools"><code>iterrools</code></a> library which is optimized and designed specifically for efficient looping &hellip; and don&rsquo;t forget to use <code>import</code>!</p>
+
+<p>If you want to see a few more examples, check out the <a href="https://nbviewer.jupyter.org/github/ncar/soars19ctds/blob/master/xarray.ipynb">Jupyter Notebook</a> I&rsquo;ve put together with sample code.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/python/">python</a>, 
+            
+                <a href="/tags/programming/">programming</a>, 
+            
+                <a href="/tags/core-concepts/">core concepts</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+
+        
+
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="SOARS 2019" href="">SOARS 2019</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2019 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+

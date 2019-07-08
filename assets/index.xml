@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assets on SOARS 2019</title>
+    <link>/assets/</link>
+    <description>Recent content in Assets on SOARS 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Keith Maull and the SOARS Program</copyright>
+    
+	<atom:link href="/assets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/assets/notebooks/sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assets/notebooks/sample/</guid>
+      <description>sum(range(0,10))  </description>
+    </item>
+    
+  </channel>
+</rss>
