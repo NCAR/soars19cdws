@@ -3,26 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/soars19ctds/journal/linux-in-your-future/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/soars19ctds/post/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/tags/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/tags/python/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/tags/research/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/soars19ctds/tags/scientific-computing/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/soars19ctds/journal/python-built-ins/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/soars19ctds/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/soars19ctds/tags/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -38,26 +61,8 @@
   </url>
   
   <url>
-    <loc>/soars19ctds/tags/python/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/soars19ctds/journal/ncar-hackathon/</loc>
     <lastmod>2019-06-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/soars19ctds/tags/research/</loc>
-    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/soars19ctds/tags/scientific-computing/</loc>
-    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

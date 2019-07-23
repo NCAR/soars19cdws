@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/soars19ctds/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Is Linux in your research future?</title>
+      <link>/soars19ctds/journal/linux-in-your-future/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/journal/linux-in-your-future/</guid>
+      <description>Over the summer, I&amp;rsquo;ve heard some prot&amp;eacute;g&amp;eacute;s bring Linux up. The conversations seem to go something like this:
+THEM: It seems like a lot of people are using Linux in my research team.
+ME: Hmmmm, do you have any skill with Linux?
+THEM: No, not really, but should I? So many people seem to be using it &amp;hellip;
+ME: Maybe, but the truth is you are probably already are using it and didn&amp;rsquo;t even know.</description>
+    </item>
     
     <item>
       <title>Python Built-ins</title>

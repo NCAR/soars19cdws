@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Maull and the SOARS Program</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/soars19ctds/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>/soars19ctds/tags/python/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>/soars19ctds/tags/research/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scientific computing</title>
+      <link>/soars19ctds/tags/scientific-computing/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soars19ctds/tags/scientific-computing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>core concepts</title>
@@ -27,33 +54,6 @@
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/soars19ctds/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/soars19ctds/tags/python/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/soars19ctds/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>/soars19ctds/tags/research/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/soars19ctds/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scientific computing</title>
-      <link>/soars19ctds/tags/scientific-computing/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/soars19ctds/tags/scientific-computing/</guid>
       <description></description>
     </item>
     
